@@ -2,7 +2,7 @@ body {
     margin:20px auto;
     max-width: 1000px;
     line-height: 1.4; 
-    font-family: sans-serif;
+    font-family: cambria, georgia, serif;
     font-size: 18px;
     padding: 0 10px;
     background-color:#C0F0F7;
@@ -31,8 +31,13 @@ h3{
     width: 40%;
     padding-top: 20px;
 }
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
 .topnav{
-    background-color: #333;
+    background-color: #169D53;
     display: flex;
     justify-content: space-around;
 }
@@ -43,10 +48,10 @@ h3{
     font-size: 17px;
 }
 .topnav a:hover{
-    background-color: #ddd;
+    background-color: #75D481;
     color: black;
 }
 .topnav a.active{
-    background-color: #04AA6D;
+    background-color: #75D481;
     color: white;
 }
